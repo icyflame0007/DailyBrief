@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,14 +29,15 @@
                     android:id="@+id/homecard"
                     android:layout_width="110dp"
                     android:layout_height="80dp"
+                    android:hapticFeedbackEnabled="true"
                     android:layout_margin="10dp"
-                    android:background="#FFC107"
-                    android:backgroundTint="@color/black"
+
                     app:cardCornerRadius="8dp">
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/gradient"
                         android:gravity="center">
 
                         <TextView
@@ -59,13 +60,14 @@
                     android:layout_width="110dp"
                     android:layout_height="80dp"
                     android:layout_margin="10dp"
-                    android:background="#FFC107"
-                    android:backgroundTint="@color/purple_500"
+                    android:hapticFeedbackEnabled="true"
+
                     app:cardCornerRadius="8dp">
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/sportsgradient"
                         android:gravity="center">
 
                         <TextView
@@ -88,14 +90,15 @@
                     android:id="@+id/sciencecard"
                     android:layout_width="110dp"
                     android:layout_height="80dp"
+                    android:hapticFeedbackEnabled="true"
                     android:layout_margin="10dp"
-                    android:background="#FFC107"
-                    android:backgroundTint="@color/teal_700"
+
                     app:cardCornerRadius="8dp">
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/sciencegradient"
                         android:gravity="center">
 
                         <TextView
@@ -118,13 +121,13 @@
                     android:layout_width="110dp"
                     android:layout_height="80dp"
                     android:layout_margin="10dp"
-                    android:background="#FFC107"
-                    android:backgroundTint="@color/purple_700"
+                    android:hapticFeedbackEnabled="true"
                     app:cardCornerRadius="8dp">
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/healthgradient"
                         android:gravity="center">
 
                         <TextView
@@ -148,13 +151,13 @@
                     android:layout_width="110dp"
                     android:layout_height="80dp"
                     android:layout_margin="10dp"
-                    android:background="#FFC107"
-                    android:backgroundTint="#BA02ED"
+                    android:hapticFeedbackEnabled="true"
                     app:cardCornerRadius="8dp">
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/businessgradient"
                         android:gravity="center">
 
                         <TextView
@@ -177,14 +180,14 @@
                     android:id="@+id/entertainmentcard"
                     android:layout_width="140dp"
                     android:layout_height="80dp"
+                    android:hapticFeedbackEnabled="true"
                     android:layout_margin="10dp"
-                    android:background="#FFC107"
-                    android:backgroundTint="#159898"
                     app:cardCornerRadius="8dp">
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/entertaingradient"
                         android:gravity="center">
 
                         <TextView
@@ -209,6 +212,8 @@
 
     </LinearLayout>
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -220,6 +225,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
+
+
 
 
 </LinearLayout>
