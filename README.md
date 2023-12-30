@@ -1,4 +1,4 @@
-# NewsApp
+# DailyBrief
 
 
 Introducing DailyBrief, your comprehensive news companion offering a diverse array of categories to suit every interest. Stay informed with ease as our app provides a seamless experience, allowing you to access articles directly within the app, without any pesky redirects to external websites. Dive into  tech breakthroughs,politics , entertainment highlights, and more, all conveniently curated and accessible at your fingertips. Experience news consumption like never before with DailyBrief.
