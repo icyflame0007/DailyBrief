@@ -2,6 +2,9 @@
 
 Here are some of the snapshots from the app
 
+Download link for the application [https://drive.google.com/file/d/11IH81v1MXsrRCadmHg1wwpxUqM0iUYn3/view?usp=sharing
+]
+
 This is home page
 
 
